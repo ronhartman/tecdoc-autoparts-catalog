@@ -1,6 +1,6 @@
 # Vehicle Parts Catalog - A decent TecDoc Alternative (not as complete as Tecdoc but could work for small & medium projects)
 
-This project, built on **Symfony 7.1**, provides a foundation to help you integrate with our **[Auto Parts Catalog API](http://auto-parts-catalog.com/)**. The API enables precise automotive parts identification, cross-referencing, and vehicle application data. Start building your app today using the available API functionalities.
+This project, built on **Symfony 7.1**, provides a foundation to help you integrate with our **[Vehicle Parts Catalog API](http://auto-parts-catalog.com/)**. The API enables precise automotive parts identification, cross-referencing, and vehicle application data. Start building your app today using the available API functionalities.
 
 **API Documentation**: [Auto Parts Catalog](http://auto-parts-catalog.com/)
 
@@ -27,9 +27,9 @@ composer install
 ```
 
 ### Step 3: Add API Key
-Update the `.env` file with your [RapidAPI key](http://auto-parts-catalog.com/):
+Update the `.env` file with your [API key](http://auto-parts-catalog.com/):
 ```
-RAPIDAPI_KEY=your_rapidapi_key_here
+API_KEY=your_api_key_here
 ```
 
 ### Step 4: Start the Symfony server
