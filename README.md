@@ -1,8 +1,8 @@
 # Vehicle Parts Catalog - A decent TecDoc Alternative (not as complete as Tecdoc but could work for small & medium projects)
 
-This project, built on **Symfony 7.1**, provides a foundation to help you integrate with our **[Vehicle Parts Catalog API](http://auto-parts-catalog.com/)**. The API enables precise automotive parts identification, cross-referencing, and vehicle application data. Start building your app today using the available API functionalities.
+This project, built on **Symfony 7.1**, provides a foundation to help you integrate with our **[Vehicle Parts Catalog API](https://auto-parts-catalog.apiprofile.com/)**. The API enables precise automotive parts identification, cross-referencing, and vehicle application data. Start building your app today using the available API functionalities.
 
-**API Documentation**: [Auto Parts Catalog](http://auto-parts-catalog.com/)
+**API Documentation**: [Auto Parts Catalog](https://auto-parts-catalog.apiprofile.com/)
 
 ## Key Features
 - **Part Identification**: Search parts by vehicle make, model, and year.
@@ -27,7 +27,7 @@ composer install
 ```
 
 ### Step 3: Add API Key
-Update the `.env` file with your [API key](http://auto-parts-catalog.com/):
+Update the `.env` file with your [API key](https://auto-parts-catalog.apiprofile.com/):
 ```
 API_KEY=your_api_key_here
 ```
@@ -53,10 +53,5 @@ The API methods are available in the `CatalogApi.php` class. Controllers handle 
 
 ## Demo
 
-Check out the live demo here: [Auto Parts Catalog Demo](http://auto-parts-catalog.com/)
+Check out the live demo here: [Auto Parts Catalog Demo](https://auto-parts-catalog.apiprofile.com/)
 
-## Additional Resources
-
-For more information about Symfony, visit the official [Symfony documentation](https://symfony.com/doc/current/setup.html).
-
-If you have any questions, feel free to reach out to us at catamc@mail.com.
